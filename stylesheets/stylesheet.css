@@ -260,15 +260,6 @@ a {
   min-width: 350px;
 }
 
-@media screen and (max-width: 480px) {
-  .email {
-    width: 100%;
-  }
-  .button {
-    width: 100%;
-  }
-}
-
 .button {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -419,4 +410,16 @@ a {
 
 .feature-list ul li {
   display: inline;
+}
+
+@media screen and (max-width: 480px) {
+  .email {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .feature-list ul li {
+    display: inline;
+  }
 }
