@@ -28,10 +28,6 @@ a:hover {
   width: 80%;
   margin: 0 auto;
 }
-.cover-highlight {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 5px 10px;
-}
 .feature-list ul {
   margin-bottom: 20px;
   padding: 0;
@@ -40,10 +36,16 @@ a:hover {
 .feature-list ul li {
   display: inline;
 }
+
+.signup-form {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
 .email-field {
   padding: 10px;
   border-radius: 5px;
-  min-width: 200px;
+  width: 100%;
   font-size: 18px;
 }
 .btn {
@@ -52,7 +54,8 @@ a:hover {
   background: rgba(255, 0, 0, 0.7);
   border-style: none;
   color: #fff;
-  font-size: 18px
+  font-size: 18px;
+  width: 100%;
 }
 @media screen and (min-width: 64em) {
   .page-header {
@@ -286,11 +289,5 @@ a:hover {
   }
   .feature-list ul li {
     display: list-item;
-  }
-  .btn {
-    width: 100%;
-  }
-  .email-field  {
-    width: 100%;
   }
 }
